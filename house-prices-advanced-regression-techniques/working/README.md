@@ -18,9 +18,9 @@ The Ames Housing dataset was compiled by Dean De Cock for use in data science ed
 
     N.B. The Root Mean Squared Log Error (RMSLE) is the square root of the expected value of the squared logarithmic (quadratic) error or loss.
 
-    If $\hat{y}_i$ is the predicted value of the $i$-th sample, and $y_i$ is the corresponding true value, then the RMSLE estimated over $n_{\text{samples}}$ is defined as:
+    If $\hat{y}_ i$ is the predicted value of the $i$-th sample, and $y_i$ is the corresponding true value, then the RMSLE estimated over $n_{\text{samples}}$ is defined as:
 
-    $ \text{RMSLE}(y, \hat{y})$ =
+    $\text{RMSLE}(y, \hat{y})$ =
 
     $\sqrt{\frac{1}{n_\text{samples}} \sum_{i=0}^{n_\text{samples} - 1} (\ln(1 + y_i) - \ln(1 + \hat{y}_i))^2 }$
 
